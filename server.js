@@ -10,7 +10,7 @@ app.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + "/views/partials");
 
 //start the server
-app.listen(3000, () => console.log(`server is up!!!.Listening on port ${port}`));
+app.listen(port, () => console.log(`server is up!!!.Listening on port ${port}`));
 
 
 
